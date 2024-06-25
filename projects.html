@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Projects | Health Information Systems Nigeria</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon/favicon.ico" rel="icon" />
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="lib/Nivo-slider/css/nivo-slider.css" />
+    <!-- Nivo theme -->
+    <link rel="stylesheet" href="lib/Nivo-slider/css/nivo-slider-theme.css" />
+    <!-- <link rel="stylesheet" href="css/owl.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>No 1 Etang Obuli Crescent, Jabi, FCT Abuja</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Mon - Fri : 09.00 AM - 05.00 PM</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+234-8034402204</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img
+          class="img-fluid me-3"
+          src="img/Logos/header-logo.jpg"
+          alt="Icon"
+        />
+        <!-- <h1 class="m-0 text-primary">HISP</h1> -->
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link ">Home</a>
+          <div class="nav-item dropdown">
+            <a
+              href="about.html"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >About US</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="about.html#story" class="dropdown-item">Our Story</a>
+              <a href="about.html#values" class="dropdown-item">Our Values</a>
+              <a href="about.html#expertise" class="dropdown-item"
+                >Our Expertise</a
+              >
+            </div>
+          </div>
+          <a href="service.html" class="nav-item nav-link">Services</a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle active bold"
+              data-bs-toggle="dropdown"
+              >Our Work</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="evolution.html" class="dropdown-item">HISP Evolution</a>
+              <a href="events.html" class="dropdown-item">Events</a>
+              <a href="projects.html" class="dropdown-item active">Partners and Projects</a>
+              <a href="tech-team.html" class="dropdown-item">Our Tech Team</a>
+            </div>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <a href="contact.html" class="btn btn-primary py-sm-3 px-3 px-sm-5 "
+          >Get in touch<i class=""></i
+        ></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      id="projects-bg"
+    >
+      <div class="container py-5">
+        <h1 class="display-4 text-white mb-3 animated slideInDown">Notable Projects</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item text-primary active" aria-current="page">
+              Projects
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Projects Start-->
+    <div class="container px-5 journey py-3 text-center mx-auto wow fadeInUp section-header" data-wow-delay="0.1s">
+      <h1 class="display-5 mb-3">Our<span class="text-primary"> Projects</span> over the years</h1>
+    </div>
+    <div class="container wow fadeInUp" data-wow-delay="0.3s">
+      <div class="emargency-care" style="padding:0">
+        <p style="font-size:19px"> 
+            HISP has been in the vanguard of HMIS strengthening in Nigeria since her corporate registration in 2004. Her first major activity was to participate in the full functional roll Out of National Health Information Systems (NHMIS) software in 2006 and with further consolidation as the default backstopping organization for the Federal Ministry of Health. Since then, the organization has become known throughout Nigeria for her result oriented leadership in the deployment of DHIS as veritable tool for data collection and several other HMIS support in the FMH and a good number of states in the country.
+
+        <p style="font-size:19px" class="fw-bold">Below is a compendium and overview of <span class="text-primary">few</span> of HISP key assignments undertaken between 2006-2011 </p>
+      </div>
+    </div>
+
+    <div
+        class="container-xxl bg-primary project my-5 py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="">
+          <div class="row">
+            <div class="text-light wow fadeIn" data-wow-delay="0.5s">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td class="td-bold ">S/No.</td>
+                    <td class="td-bold m-width">Client</td>
+                    <td class="td-bold m-width">Assignment Description</td>
+                    <td class="td-bold m-width">Location and Activity</td>
+                    <td class="td-bold">Date</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>» Federal Ministry of Health 12th Floor Federal Secretariat Abuja. <br>
+                      » Health Systems Development Project (HSDP II) Word Bank Assisted FMOH/HSDPII
+                    </td>
+                    <td>» NHMIS Software Design and Deployment <br>
+                      » Configuration of the DHIS software as the sole software for the MoH. <br> 
+                      » Conduct of training across the entire country <br> 
+                      » Training  of  key ministry staff <br>
+                      » Development of a software for National Health Management Information System <br>
+                      </td>
+                    <td>» Abuja, Kaduna, Jos, Delta, Ekiti, Bauchi and Enugu <br>
+
+                      »Train FMoH staff <br>
+                      
+                      » Conduct training in six geopolitical zones <br>
+                      
+                      » Install DHIS in all the states of  Nigeria
+                      </td>
+                    <td> Dec 2006 <br>&nbsp; ↓ <br> May 2007</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>
+                      » PATHS 2 (DFID sponsored) 4550 Montgomery Lane, Suite 800, <br>
+                      » Bethesda,    Maryland 20814-5341
+
+                    </td>
+                    <td>» HMIS Needs Assessment </td>
+                    <td>» Enugu, Kano, Kaduna and Jigawa</td>
+                    <td>Oct 2008 <br> &nbsp; ↓ <br> Nov 2008</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>
+                      » FHI -Coscharis Plaza, Area 3, Abuja
+                    </td>
+                    <td>» Customization of software for Nigeria National Response Information Management System for HIV/AIDS.</td>
+                    <td>» Covered 1085 staff  in 6 states (Benue, Cross River, Enugu, FCT, Nassarawa and Kaduna State)</td>
+                    <td>Jen 2009 <br> &nbsp; ↓ <br> March 2009</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>» Khulisa South Africa </td>
+                    <td>» Social Impact Assessment </td>
+                    <td>» Lagos, Ibadan, Benue, Plateau and Kano</td>
+                    <td>Mar 2009 <br>&nbsp; ↓ <br> Oct 2009</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>» TSHIP</td>
+                    <td>» DHIS2 Customization, Deployment and Support</td>
+                    <td>» To create a comprehensive database for TSHIP project in Bauchi and Sokoto (Content development, online configuration and management).</td>
+                    <td>2008 <br>&nbsp; ↓ <br> 2010</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>» PATHS 2 (DFID sponsored) 4550 Montgomery Lane, Suite 800,Bethesda, Maryland, 2080145341 </td>
+                    <td>» HMIS Strengthening</td>
+                    <td>» Technical assistance with relevant technology to improve health data to Kano, Abuja, Lagos, Enugu, Jigawa and Kaduna states for robust policy planning (6 staff in each state).</td>
+                    <td>May 2011 <br>&nbsp; ↓ <br> Nov 2011</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container wow fadeInUp" data-wow-delay="0.3s">
+      <div class="emargency-care" style="padding:0">
+        <p style="font-size:19px"> 
+          The DHIS2 has been showcased by HISP Nigeria to be a very effective and fluent tool for health data mining, related research, data analysis functions and requirements of both state and international clients.  This has built a strong interest and attraction of several bodies and organizations towards HISP for field work and support services in several areas of data management endeavours.  Other jobs undertaken for clients by HISP Nigeria in addition to the first six mentioned above include the following;
+
+        <p style="font-size:19px" class="fw-bold">Below are <span class="text-primary">some</span> key assignments undertaken by HISP Nigeria between 2012-2015 </p>
+      </div>
+    </div>
+
+    <div
+        class="container-xxl bg-primary project my-5 py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="">
+          <div class="row">
+            <div class="text-light wow fadeIn" data-wow-delay="0.5s">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td class="td-bold ">S/No.</td>
+                    <td class="td-bold m-width">Client</td>
+                    <td class="td-bold m-width">Assignment Description</td>
+                    <td class="td-bold m-width">Location and Activity</td>
+                    <td class="td-bold">Date</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>» FMoH </td>
+                    <td>» To Enter new facilities <br>
+                      » To harmonize conflicting facilities and organizational names as the need arises based on agreed guidelines <br> 
+                    </td>
+                    <td>» All States in Nigeria </td>
+                    <td> 2012 <br>&nbsp; ↓ <br> 2012</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td> » NACA &NASCAP </td>
+                    <td>» To Install fully functioning  DHIS2  with appropriate  set  of  data files  and  report outputs </td>
+                    <td>» All States in Nigeria</td>
+                    <td> 2011 <br> &nbsp; ↓ <br> 2013</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>» LACA</td>
+                    <td>» At LACAs in 6 states <br>
+                        » Install fully functioning  DHIS2  with appropriate  set  of  data files  and  report outputs
+                    </td>
+                    <td>» All States in Nigeria</td>
+                    <td><br> &nbsp;  <br> </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>» National Malaria Elimination Programme (NMEP) </td>
+                    <td>» Conduct a national ToT for 50 staff (NMEP & SRs) and state level raining of 1,284 personnel across 30 GF supported sites (ie State Malaria PMs, Malaria M&E officers, LGA focal persons for malaria and M&E Officers) <br> 
+                      » Grouping of facilities which provide Malaria Services in Nigeria into GF &Non GF <br>
+                      » Conduct a 3 week Cluster training of Health workers at National and 
+                      State levels                      
+                    </td>
+                    <td>» All GF & non GF Sites in Nigeria</td>
+                    <td>Sep 2014 <br>&nbsp; ↓ <br> Dec 2014</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>» FMoH</td>
+                    <td>» Basic data input, import, export, management and analysis functions Training</td>
+                    <td>» National, State & LGA level</td>
+                    <td>2015 <br>&nbsp; ↓ <br> 2016</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>» JHPIEGO Corporation </td>
+                    <td>» Deployment of DHIS2 Mobile to selected facilities Deployment of DHIS2 Mobile to selected facilities <br>
+                      » Training of  staff  on quality data capture and reporting using mobile equipment Bauchi, Sokoto  
+                    </td>
+                    <td>» Zamfara, Akwa IbomBauchi and Sokoto </td>
+                    <td>2015 <br>&nbsp; ↓ <br> 2015</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>» T-Ship: JSI Research & Training Institute, Inc. 3 Emir Sulaiman Adamu Street off Airport road, GRA, Bauchi, State
+                    </td>
+                    <td>» Customizing, deploying and managing a web-based relational database for managing programme specific, monitoring and evaluation of data </td>
+                    <td>» To create a comprehensive database for TSHIP project in Bauchi and Sokoto states </td>
+                    <td>2015 <br>&nbsp; ↓ <br> 2015</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container wow fadeInUp" data-wow-delay="0.3s">
+      <div class="emargency-care" style="padding:0">
+        <p style="font-size:19px"> 
+          Going further, there were many academy in to brainstorm on the way forward for DHIS in Africa. Several valid decisions were made during this period which set the pace for the speedy growth and development of DHIS2, a veritable and open source data instrument for the harvest and usage of health data throughout Africa.
+
+        <p style="font-size:19px" class="fw-bold">Below are <span class="text-primary">some</span> key assignments undertaken by HISP Nigeria between 2016-2020 </p>
+      </div>
+    </div>
+
+    <div
+        class="container-xxl bg-primary project my-5 py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="">
+          <div class="row">
+            <div class="text-light wow fadeIn" data-wow-delay="0.5s">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td class="td-bold ">S/No.</td>
+                    <td class="td-bold m-width">Client</td>
+                    <td class="td-bold m-width">Assignment Description</td>
+                    <td class="td-bold m-width">Location and Activity</td>
+                    <td class="td-bold">Date</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>» The John Hopkins Public Health In Nigeria Initiative in conjunction with Nigeria Urban Reproductive Initiative  (JHPHINI/NURHI 2 Project) </td>
+                    <td>» Online data base set up and Cloud hosting of 24hrs DHIS2 instance <br>
+                      » Domain set up and SSL configuration <br> 
+                      » Est of database backup protocols and disaster recovery plans; use of SSL (HTTPS/encryption) to secure passwords & private info <br> 
+                      » Beta testing and troubleshooting  <br> 
+                      » Maintenance and troubleshooting (Training of MAPS technical staff  on the maintenance of DHIS2 setup) <br> 
+                      » Monitoring of server resources and application, secure server environment with potential for scaling up increased system usage, install a help desk for troubleshooting  <br> 
+                    </td>
+                    <td> </td>
+                    <td> Mar 2015 <br>&nbsp; ↓ <br> Feb 2016</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td> » PALLADIUM International Development Nigeria Limited  </td>
+                    <td>» Compile approved list of  MNCH 2 supported HFs & verify same on the DHIS2. <br>
+                        » Group the MNHC2 supported HFs as a sub set of all HFs in the supported states <br>
+                        » Provide technical remote  & on- site support for all issues emanating from the grouping <br>
+                        » Train relevant programme staff on basic maintenance of the grp 
+                    </td>
+                    <td>» Kaduna, Zamfara, Yobe, Katsina, Kano & Jigawa </td>
+                    <td> 2016 <br> &nbsp; ↓ <br> 2016</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>» WHO</td>
+                    <td>» Training of WHO Officers</td>
+                    <td>» Conduct training to officers on DHIS2 for 2 months</td>
+                    <td>2016 <br>&nbsp; ↓ <br> 2016</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>» FHI 360 </td>
+                    <td>» Support the development of an online CHMIS instance on the national DHIS2.0 <br> 
+                      » Conduct Training of stakeholders on CHMIS tools, data mgt, use of data for planning & decision making  <br>
+                    </td>
+                    <td>» Sokoto And Bauchi States </td>
+                    <td>May 2017 <br>&nbsp; ↓ <br> Sep 2017</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>» JSI/MCSP</td>
+                    <td>» Hosting of child Health intervention facilities and incorporating the PPMVs component of MCSP on DHIS2 for supported states of Ebonyi and Kogi in Nigeria.</td>
+                    <td>» Ebonyi and Kogi States</td>
+                    <td>2017 <br>&nbsp; ↓ <br> 2017</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>» JHealth  Strategy & Delivery Foundation (HSDF) </td>
+                    <td>» Training of 274 officers in Charge, 25 LGA M&E Officers, 25 PHC Directors and 9 SMOH officials on the use of DHIS Mobile platform </td>
+                    <td>» Minna, Kontagora, New Bussa in Niger state </td>
+                    <td>2018 <br>&nbsp; ↓ <br> 2018</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>» PLAN International</td>
+                    <td>» Programming of DHIS2 on NURHI 2 Mobile Phones <br>
+                      » Facilitate & provide technical assistance to the ToTs for FP managers in Lagos and train them on how to upload and link data from facility to DHIS2 <br>
+                      » Adopt NURHI 2 indicators into the DHIS2 Nigeria <br>
+                      » Create a portion on the DHIS2 server that will offer NUHRI 2 user name and password to access the server <br>
+                      » Enable reporting back end platform for NUHRI 2 facilities in Lagos State <br>
+                    </td>
+                    <td>» Oyo and Lagos States </td>
+                    <td>May 2018 <br>&nbsp; ↓ <br> June 2018</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>» CHAI</td>
+                    <td>» Update some components of DHIS2 for CHAI prayer 16, KN, RV, KO, KTBA, NG and CRS</td>
+                    <td> </td>
+                    <td>Nov 2016 <br>&nbsp; ↓ <br> Oct 2018</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>» Nigeria Governor's Forum (NGF)</td>
+                    <td>» Creation of platform for tracking and visualization of Key health and socio-economic indicators</td>
+                    <td>» NGF DHIS2 instance created, NGF DHIS linked to National Instance, Creation of animated executive Dash board displaying key indicators by states</td>
+                    <td>June 2018 <br>&nbsp; ↓ <br> Jul 2018</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>» WHO</td>
+                    <td>» To develop a mobile DHIS2 platform integrate e-project</td>
+                    <td> </td>
+                    <td>2018 <br>&nbsp; ↓ <br> 2018</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>» Society for Family Health </td>
+                    <td>» Develop Mobile DHIS for capturing of Service data from Cps and PPMVs <br> 
+                      » Migrate service delivery data into NHMIS <br>
+                      » Increase visibility of private health data reporting
+                    </td>
+                    <td>» Lagos and Kaduna</td>
+                    <td> 2018 <br>&nbsp; ↓ <br> 2018</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>» Management Sciences for Health (MSH)-Global Fund Malaria Project</td>
+                    <td>» RFQ for LINODE Server-NHMIS STAGING Server <br>
+                      » Set up Server, SSL, Domain Name, DHIS2 Instance &restore NHMIS DB back up. <br>
+                    </td>
+                    <td>» </td>
+                    <td>2018 <br>&nbsp; ↓ <br> 2018</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>» African Field Epidemiology Network (AFENET) Nigeria</td>
+                    <td>» Activate all systems supporting DHIS2 & facilitate  data quality, availability and use <br>
+                      » Forster ownership and sustain the system <br>
+                      » Improve the use of RI data across all levels in the country <br>
+                    </td>
+                    <td>» Abuja Nigeria</td>
+                    <td>May 2018 <br>&nbsp; ↓ <br> April 2019</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container wow fadeInUp" data-wow-delay="0.3s">
+      <div class="emargency-care" style="padding:0">
+        <p style="font-size:19px"> 
+          The above mentioned projects are just but a few selected projects, reach out to us if you have any questions, want to make enquiries or need to know more projects executed by HISP Nigeria.
+
+        <p style="font-size:19px">All listed projects were executed and delivered successfully in good terms </p>
+      </div>
+    </div>
+
+    <!-- Projects End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="footer-logo">
+          <img src="img/icon/HISP-logo-trsparent.png" />
+        </div>
+        <div class="row g-5 d-flex justify-content-between">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>No 1 Etang Obuli
+              Crescent, Jabi, FCT Abuja
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+234-8034402204
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>admin@hispnigeria.org.ng
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="service.html">Our Services</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>
+              Subscribe to our news letter to stay upto date with the happenings
+              in HISP
+            </p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              Copyright &copy;
+              <span class="bold">2024 HISP Nigeria.</span>
+              All Right Reserved.
+            </div>
+            <!-- <div class="col-md-6 text-center text-md-end">
+              Designed by
+              <a class="border-bottom" href="#">HISP TECH TEAM</a>
+              
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script
+      type="text/javascript"
+      src="lib/Nivo-slider/js/jquery.nivo.slider.js"
+    ></script>
+
+    <script src="lib/js/tabs.js"></script>
+    <script src="lib/js/popup.js"></script>
+
+    <!-- Main Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
